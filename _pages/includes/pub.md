@@ -1,136 +1,309 @@
 
 # 📝 Publications 
-## 🎙 Speech Synthesis
+### LiTformer: Efficient Signal Integrity Analysis for High-Speed Link Transmitters Using Non-Autoregressive Transformer
+- Songyu Sun; Xiao Dong; Yanliang Sha; Qi Sun; Quan Chen; **Zhou Jin**
+- IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems
 
+### Machine Learning-Assisted VCD Processing for Accelerated Dynamic Voltage Drop Analysis
+- Jingchao Hu, Yufei Chen, Songyu Sun, Jianfei Song, Li Zhang, Xunzhao Yin, **Zhou Jin**, Cheng Zhuo
+- ACM Transactions on Design Automation of Electronic Systems (TODAES)
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">NeurIPS 2019</div><img src='images/fs.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
+### PiSPICE: Accelerating Post-Layout SPICE Simulation via Essential Parasitic Identification
+- **Zhou Jin**, Jing Li, Jian Xin, Tianjia Zhou, Xiao Wu, Dan Niu, Zuochang Ye
+- 62th ACM/IEEE Design Automation Conference (DAC '25)
 
-[FastSpeech: Fast, Robust and Controllable Text to Speech](https://papers.nips.cc/paper/8580-fastspeech-fast-robust-and-controllable-text-to-speech.pdf) \\
-**Yi Ren**, Yangjun Ruan, Xu Tan, Tao Qin, Sheng Zhao, Zhou Zhao, Tie-Yan Liu
+### MemSens: Significantly Reducing Memory Overhead in Adjoint Sensitivity Analysis Using Novel Error-Bounded Lossy Compression
+- Chenxi Li, Yihang Feng, Fuxing Deng, Dingwen Tao, Weifeng Liu, **Zhou Jin**
+- 62th ACM/IEEE Design Automation Conference (DAC '25)
 
-[**Project**](https://speechresearch.github.io/fastspeech/) <strong><span class='show_paper_citations' data='4FA6C0AAAAAJ:qjMakFHDy7sC'></span></strong>
+### A Cutting-Edge Parallel Solver for Scalable Power Grid Analysis Using Nested Domain Decomposition
+- Jianfei Song, Xiaoyu Yang, **Zhou Jin**, Cheng Zhuo
+- 62th ACM/IEEE Design Automation Conference (DAC '25)
 
-- FastSpeech is the first fully parallel end-to-end speech synthesis model.
-- **Academic Impact**: This work is included by many famous speech synthesis open-source projects, such as [ESPNet ![](https://img.shields.io/github/stars/espnet/espnet?style=social)](https://github.com/espnet/espnet). Our work are promoted by more than 20 media and forums, such as [机器之心](https://mp.weixin.qq.com/s/UkFadiUBy-Ymn-zhJ95JcQ)、[InfoQ](https://www.infoq.cn/article/tvy7hnin8bjvlm6g0myu).
-- **Industry Impact**: FastSpeech has been deployed in [Microsoft Azure TTS service](https://techcommunity.microsoft.com/t5/azure-ai/neural-text-to-speech-extends-support-to-15-more-languages-with/ba-p/1505911) and supports 49 more languages with state-of-the-art AI quality. It was also shown as a text-to-speech system acceleration example in [NVIDIA GTC2020](https://resources.nvidia.com/events/GTC2020s21420).
-</div>
-</div>
+### A Novel Image-Graph Heterogeneous Fusion Framework for Static IR Drop Prediction
+- Dan Niu, Dekang Zhang, Yichao Cao, **Zhou Jin**, Chao Wang, Yicha Dong, Changyin Sun
+- 62th ACM/IEEE Design Automation Conference (DAC '25)
 
+### NeuralMesh: Neural Network For FEM Mesh Generation in 2.5D/3D Chiplet Thermal Simulation
+- Pengju Chen, Da Niu, Dekang Zhang, Wenhao Wang, Depeng Xie, **Zhou Jin**, Wei W. Xing, Lei He
+- 62th ACM/IEEE Design Automation Conference (DAC '25)
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICLR 2021</div><img src='images/fs2.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
+### G-SpNN: GPU-Accelerated Passivity Enforcement for S-Parameter Modeling with Neural Networks
+- Lijie Zeng, Jiatai Sun, Xiao Wu, Dan Niu, Tianshi Wang, Yibo Lin, Zuochang Ye, **Zhou Jin**
+- 62th ACM/IEEE Design Automation Conference (DAC '25)
 
-[FastSpeech 2: Fast and High-Quality End-to-End Text to Speech](https://arxiv.org/abs/2006.04558) \\
-**Yi Ren**, Chenxu Hu, Xu Tan, Tao Qin, Sheng Zhao, Zhou Zhao, Tie-Yan Liu
+### ReRAM-Based Process-In-Memory Accelerator for Iterative Solvers: a Systematic Survey
+- Boyu Geng, Mingjia Fan, **Zhou Jin**, Weifeng Liu
+- 31st IEEE International Symposium on Circuits and Systems (ISCAS '25)
 
-[**Project**](https://speechresearch.github.io/fastspeech2/) <strong><span class='show_paper_citations' data='4FA6C0AAAAAJ:LkGwnXOMwfcC'></span></strong>
-  - This work is included by many famous speech synthesis open-source projects, such as [PaddlePaddle/Parakeet ![](https://img.shields.io/github/stars/PaddlePaddle/PaddleSpeech?style=social)](https://github.com/PaddlePaddle/PaddleSpeech), [ESPNet ![](https://img.shields.io/github/stars/espnet/espnet?style=social)](https://github.com/espnet/espnet) and [fairseq ![](https://img.shields.io/github/stars/pytorch/fairseq?style=social)](https://github.com/pytorch/fairseq).
-</div>
-</div>
+### A Novel Frequency-Spatial Domain Aware Network for Fast Thermal Prediction
+- Dekang Zhang, Dan Niu, **Zhou Jin**, Yichao Dong, Jingweijia Tan, Changyin Sun
+- 22nd Design, Automation and Test in Europe Conference (DATE '25)
 
+### LaRED: Efficient IR Drop Predictor with Layout-Preserving Rebuilder-Encoder-Decoder Architecture
+- Chengxuan Yu, Yanshuang Teng, Wenhao Dai, Yongjiang Li, Wei Xing, Xiao Wu, Dan Niu, **Zhou Jin**
+- 22nd Design, Automation and Test in Europe Conference (DATE '25)
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICLR 2024</div><img src='images/mega.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
+### Boosting the Performance of Transistor-Level Circuit Simulation with GNN (Invited Paper)
+- Jiqing Jiang, Yongqiang Duan, **Zhou Jin**
+- 30th ACM/IEEE Asia and South Pacific Design Automation Conference (ASP-DAC '25)
 
-[Mega-TTS 2: Boosting Prompting Mechanisms for Zero-Shot Speech Synthesis](https://openreview.net/forum?id=mvMI3N4AvD) \\ 
-Ziyue Jiang, Jinglin Liu, **Yi Ren**, et al.
+### A Parallel Simulation Framework Incorporating Machine Learning-Based Hotspot Detection for Accelerated Power Grid Analysis
+- Yangfan Jiang, Jianfei Song, Xunzhao Yin, Xiao Dong, Songyu Sun, Yibo Lin, **Zhou Jin**, Xiaoyu Yang, Cheng Zhuo
+- Proceedings of the 2024 ACM/IEEE International Symposium on Machine Learning for CAD (MLCAD)
 
-[**Project**](https://boostprompt.github.io/boostprompt/) 
-  - This work has been deployed on many TikTok products.
-  - Advandced zero-shot voice cloning model.
-</div>
-</div>
+### P-TICER: An Effective Parallel TICER Acceleration Method for Model Order Reduction
+- Zijia Zhang, Dan Niu, **Zhou Jin**, Pengju Chen, Zhenya Zhou, Changyin Sun
+- 2024 2nd International Symposium of Electronics Design Automation (ISEDA)
 
+### EMGA: An Evolutionary Memory Grouping Algorithm For MBIST
+- Yang Li, Yongqiang Duan, Hao Zhang, Dan Niu, Xiao Wu, **Zhou Jin**
+- 2024 2nd International Symposium of Electronics Design Automation (ISEDA)
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAAI 2022</div><img src='images/diffsinger.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
+### ISLU: Indexing-Efficient Sparse LU Factorization for Circuit Simulation on GPUs (invited paper)
+- Dan Niu, Yiyang Tao, **Zhou Jin**, Yichao Dong, Chao Wang, Changyin Sun
+- 43rd ACM/IEEE International Conference on Computer-Aided Design (ICCAD '24)
 
-[DiffSinger: Singing Voice Synthesis via Shallow Diffusion Mechanism](https://arxiv.org/abs/2105.02446) \\
-Jinglin Liu, Chengxi Li, **Yi Ren**, Feiyang Chen, Zhou Zhao
+### CSP: Comprehensively-Sparsified Preconditioner for Efficient nonlinear Circuit Simulation
+- Yuxuan Zhao, Xiaoyu Yang, Yinuo Bai, Lijie Zeng, Dan Niu, Weifeng Liu, **Zhou Jin**
+- 43rd ACM/IEEE International Conference on Computer-Aided Design (ICCAD '24)
 
-- Many [video demos](https://www.bilibili.com/video/BV1be411N7JA) created by the [DiffSinger community](https://github.com/openvpi) are released.
-- DiffSinger was introduced in [a very popular video](https://www.bilibili.com/video/BV1uM411t7ZJ) (1600k+ views) on Bilibili!
+### Leda: Leveraging Tiling Dataflow to Accelerate SpMM on HBM-Equipped FPGAs for GNNs
+- Enxin Yi, Jiarui Bai, Nie Yijie, Dan Niu, **Zhou Jin**, Weifeng Liu
+- 43rd ACM/IEEE International Conference on Computer-Aided Design (ICCAD '24)
 
-- [**Project**](https://diffsinger.github.io/) \| [![](https://img.shields.io/github/stars/NATSpeech/NATSpeech?style=social&label=DiffSpeech Stars)](https://github.com/NATSpeech/NATSpeech) \| [![](https://img.shields.io/github/stars/MoonInTheRiver/DiffSinger?style=social&label=DiffSinger Stars)](https://github.com/MoonInTheRiver/DiffSinger) \| [![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-blue?label=Demo)](https://huggingface.co/spaces/NATSpeech/DiffSpeech)
-</div>
-</div>
+### Pseudo Adjoint Optimization: Harnessing the Solution Curve for SPICE Acceleration
+- Jiatai Sun, Xiaru Zha, Chao Wang, Xiao Wu, Dan Niu, Wei W. Xing, **Zhou Jin**
+- 43rd ACM/IEEE International Conference on Computer-Aided Design (ICCAD '24)
 
+### Mille-feuille: A Tile-Grained Mixed Precision Single-Kernel Conjugate Gradient Solver on GPUs
+- Dechuang Yang, Yuxuan Zhao, Yiduo Niu, Weile Jia, En Shao, Weifeng Liu, Guangming Tan, **Zhou Jin**
+- 37th International Conference for High Performance Computing, Networking, Storage, and Analysis (SC '24)
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">NeurIPS 2021</div><img src='images/portaspeech.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
+### AmgT: Algebraic Multigrid Solver on Tensor Cores
+- Yuechen Lu, Lijie Zeng, Tengcheng Wang, Xu Fu, Wenxuan Li, Helin Cheng, Dechuang Yang, **Zhou Jin**, Marc Casas, Weifeng Liu
+- 37th International Conference for High Performance Computing, Networking, Storage, and Analysis (SC '24)
 
-[PortaSpeech: Portable and High-Quality Generative Text-to-Speech](https://arxiv.org/abs/2109.15166) \\
-**Yi Ren**, Jinglin Liu, Zhou Zhao
+### UnetPro: Combining Attention with Skip Connection in Unet for Efficient IR Drop Prediction
+- Zhengfei Qi, Dan Niu, Wanchao Wang, Xiao Wu, Chengxuan Yu, **Zhou Jin**
+- 2nd IEEE/ACM International Symposium of Electronics Design Automation (ISEDA '24)
 
-[**Project**](https://portaspeech.github.io/) \| [![](https://img.shields.io/github/stars/NATSpeech/NATSpeech?style=social&label=Code+Stars)](https://github.com/NATSpeech/NATSpeech) \| [![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-blue?label=Demo)](https://huggingface.co/spaces/NATSpeech/PortaSpeech)
-</div>
-</div>
+### SD-SSTA: Statistical Static Time Analysis Algorithm Considering Skewed Distribution
+- Fuxing Deng, Yihang Feng, Dan Niu, Xiao Wu, **Zhou Jin**
+- 2nd IEEE/ACM International Symposium of Electronics Design Automation (ISEDA '24)
 
-- `AAAI 2024` [Emotion Rendering for Conversational Speech Synthesis with Heterogeneous Graph-Based Context Modeling](https://arxiv.org/abs/2312.11947), Rui Liu, Yifan Hu, **Yi Ren**, et al. [![](https://img.shields.io/github/stars/walker-hyf/ECSS?style=social&label=Code+Stars)](https://github.com/walker-hyf/ECSS)
-- ``ICML 2023`` [Make-An-Audio: Text-To-Audio Generation with Prompt-Enhanced Diffusion Models](https://text-to-audio.github.io/paper.pdf), Rongjie Huang, Jiawei Huang, Dongchao Yang, **Yi Ren**, et al.
-- ``ACL 2023`` [CLAPSpeech: Learning Prosody from Text Context with Contrastive Language-Audio Pre-Training](), Zhenhui Ye, Rongjie Huang, **Yi Ren**, et al.
-- ``ACL 2023`` [FluentSpeech: Stutter-Oriented Automatic Speech Editing with Context-Aware Diffusion Models](), Ziyue Jiang, Qian Yang, Jialong Zuo, Zhenhui Ye, Rongjie Huang, **Yi Ren** and Zhou Zhao
-- ``ACL 2023`` [Revisiting and Incorporating GAN and Diffusion Models in High-Fidelity Speech Synthesis](), Rongjie Huang, **Yi Ren**, Ziyue Jiang, et al.
-- ``ACL 2023`` [Improving Prosody with Masked Autoencoder and Conditional Diffusion Model For Expressive Text-to-Speech](), Rongjie Huang, Chunlei Zhang, **Yi Ren**, et al.
-- `ICLR 2023` [Bag of Tricks for Unsupervised Text-to-Speech](https://openreview.net/forum?id=SbR9mpTuBn), **Yi Ren**, Chen Zhang, Shuicheng Yan
-- `INTERSPEECH 2023` [StyleS2ST: zero-shot style transfer for direct speech-to-speech translation](https://arxiv.org/abs/2305.17732), Kun Song, **Yi Ren**, Yi Lei, et al.
-- `INTERSPEECH 2023` [GenerTTS: Pronunciation Disentanglement for Timbre and Style Generalization in Cross-Lingual Text-to-Speech](https://arxiv.org/abs/2306.15304), Yahuan Cong, Haoyu Zhang, Haopeng Lin, Shichao Liu, Chunfeng Wang, **Yi Ren**, et al.
-- `NeurIPS 2022` [Dict-TTS: Learning to Pronounce with Prior Dictionary Knowledge for Text-to-Speech](), Ziyue Jiang, Zhe Su, Zhou Zhao, Qian Yang, **Yi Ren**, et al. [![](https://img.shields.io/github/stars/Zain-Jiang/Dict-TTS?style=social&label=Code+Stars)](https://github.com/Zain-Jiang/Dict-TTS)
-- `NeurIPS 2022` [GenerSpeech: Towards Style Transfer for Generalizable Out-Of-Domain Text-to-Speech](), Rongjie Huang, **Yi Ren**, et al.
-- `NeurIPS 2022` [M4Singer: a Multi-Style, Multi-Singer and Musical Score Provided Mandarin Singing Corpus](), Lichao Zhang, Ruiqi Li, Shoutong Wang, Liqun Deng, Jinglin Liu, **Yi Ren**, et al. *(Datasets and Benchmarks Track)* [![](https://img.shields.io/github/stars/M4Singer/M4Singer?style=social&label=Dataset+Stars)](https://github.com/M4Singer/M4Singer)
-- ``ACM-MM 2022`` [ProDiff: Progressive Fast Diffusion Model for High-Quality Text-to-Speech](), Rongjie Huang, Zhou Zhao, Huadai Liu, Jinglin Liu, Chenye Cui, **Yi Ren**, [![](https://img.shields.io/github/stars/Rongjiehuang/ProDiff?style=social&label=Code+Stars)](https://github.com/Rongjiehuang/ProDiff)
-- ``ACM-MM 2022`` [SingGAN: Generative Adversarial Network For High-Fidelity Singing Voice Generation](https://arxiv.org/abs/2110.07468), Rongjie Huang, Chenye Cui, Chen Feiayng, **Yi Ren**, et al.
-- ``IJCAI 2022`` [SyntaSpeech: Syntax-Aware Generative Adversarial Text-to-Speech](), Zhenhui Ye, Zhou Zhao, **Yi Ren**, et al. [![](https://img.shields.io/github/stars/yerfor/SyntaSpeech?style=social&label=Code+Stars)](https://github.com/yerfor/SyntaSpeech)
-- ``IJCAI 2022`` <span style="color:red">(Oral)</span> [EditSinger: Zero-Shot Text-Based Singing Voice Editing System with Diverse Prosody Modeling](), Lichao Zhang, Zhou Zhao, **Yi Ren**, et al.
-- ``IJCAI 2022`` [FastDiff: A Fast Conditional Diffusion Model for High-Quality Speech Synthesis](), Rongjie Huang, Max W. Y. Lam, Jun Wang, Dan Su, Dong Yu, **Yi Ren**, Zhou Zhao,  <span style="color:red">(Oral)</span>, [![](https://img.shields.io/github/stars/Rongjiehuang/FastDiff?style=social&label=Code+Stars)](https://github.com/Rongjiehuang/FastDiff)
-- ``NAACL 2022`` [A Study of Syntactic Multi-Modality in Non-Autoregressive Machine Translation](), Kexun Zhang, Rui Wang, Xu Tan, Junliang Guo, **Yi Ren**, et al.
-- ``ACL 2022`` [Revisiting Over-Smoothness in Text to Speech](https://arxiv.org/abs/2202.13066), **Yi Ren**, Xu Tan, Tao Qin, et al.
-- ``ACL 2022`` [Learning the Beauty in Songs: Neural Singing Voice Beautifier](https://arxiv.org/abs/2202.13277), Jinglin Liu, Chengxi Li, **Yi Ren**, et al. \| [![](https://img.shields.io/github/stars/MoonInTheRiver/NeuralSVB?style=social&label=Code+Stars)](https://github.com/MoonInTheRiver/NeuralSVB)
-- ``ICASSP 2022`` [ProsoSpeech: Enhancing Prosody With Quantized Vector Pre-training in Text-to-Speech](https://prosospeech.github.io/), **Yi Ren**, et al.
-- ``INTERSPEECH 2021`` [EMOVIE: A Mandarin Emotion Speech Dataset with a Simple Emotional Text-to-Speech Model](https://arxiv.org/abs/2106.09317), Chenye Cui, **Yi Ren**, et al.
-- ``INTERSPEECH 2021`` <span style="color:red">(best student paper award candidate)</span> [WSRGlow: A Glow-based Waveform Generative Model for Audio Super-Resolution](https://arxiv.org/abs/2106.08507), Kexun Zhang, **Yi Ren**, Changliang Xu and Zhou Zhao
-- ``ICASSP 2021`` [Denoising Text to Speech with Frame-Level Noise Modeling](https://arxiv.org/abs/2012.09547), Chen Zhang, **Yi Ren**, Xu Tan, et al. \| [**Project**](https://speechresearch.github.io/denoispeech/)
-- ``ACM-MM 2021`` [Multi-Singer: Fast Multi-Singer Singing Voice Vocoder With A Large-Scale Corpus](https://arxiv.org/pdf/2112.10358), Rongjie Huang, Feiyang Chen, **Yi Ren**, et al. <span style="color:red">(Oral)</span>
-- ``IJCAI 2021`` [FedSpeech: Federated Text-to-Speech with Continual Learning](https://www.ijcai.org/proceedings/2021/527), Ziyue Jiang, **Yi Ren**, et al.
-- ``KDD 2020`` [DeepSinger: Singing Voice Synthesis with Data Mined From the Web](https://dl.acm.org/doi/abs/10.1145/3394486.3403249), **Yi Ren**, Xu Tan, Tao Qin, et al. \| [**Project**](https://speechresearch.github.io/deepsinger/)
-- ``KDD 2020`` [LRSpeech: Extremely Low-Resource Speech Synthesis and Recognition](https://dl.acm.org/doi/abs/10.1145/3394486.3403331), Jin Xu, Xu Tan, **Yi Ren**, et al. \| [**Project**](https://speechresearch.github.io/lrspeech/)
-- ``INTERSPEECH 2020`` [MultiSpeech: Multi-Speaker Text to Speech with Transformer](https://www.isca-speech.org/archive/Interspeech_2020/pdfs/3139.pdf), Mingjian Chen, Xu Tan, **Yi Ren**, et al. \| [**Project**](https://speechresearch.github.io/multispeech/)
-- ``ICML 2019`` <span style="color:red">(Oral)</span> [Almost Unsupervised Text to Speech and Automatic Speech Recognition](https://pdfs.semanticscholar.org/9075/a3e6271e5ef4953491488d1776527e632408.pdf), **Yi Ren**, Xu Tan, Tao Qin, et al.  \| [**Project**](https://speechresearch.github.io/unsuper/) 
+### Accelerating Large-scale Sparse LU Factorization for RF Circuit Simulation
+- Feng Guofeng, Wang Hongyu, Guo Zhuoqiang, Li Mingzhen, Zhao Tong, Jin Zhou, Jia Weile, Tan Guangming, Sun Ninghui
+- 30th International European Conference on Parallel and Distributed Computing (Euro-Par '24)
 
-## 👄 TalkingFace & Avatar
+### MAUnet: Multiscale Attention U-Net for Effective IR Drop Prediction
+- Mingyue Wang, Yuanqing Cheng, Yage Lin, Kelin Peng, Shunchuan Yang, **Zhou Jin**, Wei Xing
+- 61th ACM/IEEE Design Automation Conference (DAC '24)
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICLR 2024</div><img src='images/real3d.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
+### MASC: A Memory-Efficient Adjoint Sensitivity Analysis through Compression Using Novel Spatiotemporal Prediction
+- Chenxi Li, Boyuan Zhang, Yongqiang Duan, Yang Li, Zuochang Ye, Weifeng Liu, Dingwen Tao, **Zhou Jin**
+- 61th ACM/IEEE Design Automation Conference (DAC '24)
 
-[Real3D-Portrait: One-shot Realistic 3D Talking Portrait Synthesis](https://openreview.net/forum?id=7ERQPyR2eb), Zhenhui Ye, Tianyun Zhong, Yi Ren, et al. <span style="color:red">(Spotlight)</span> [**Project**](https://real3dportrait.github.io/) | [**Code**](https://github.com/yerfor/Real3DPortrait)
-</div>
-</div>
+### Unleashing the Potential of AQFP Logic Placement via Entanglement Entropy and Projection
+- Yinuo Bai, Enxin Yi, Wei Xing, Bei Yu, **Zhou Jin**
+- 61th ACM/IEEE Design Automation Conference (DAC '24)
 
-- `ICLR 2023` [GeneFace: Generalized and High-Fidelity Audio-Driven 3D Talking Face Synthesis](https://openreview.net/forum?id=YfwMIDhPccD), Zhenhui Ye, Ziyue Jiang, **Yi Ren**, et al.
-- `AAAI 2024` [AMD: Autoregressive Motion Diffusion](https://arxiv.org/abs/2305.09381), Bo Han, Hao Peng, Minjing Dong, **Yi Ren**, et al.
-- ``AAAI 2022`` [Parallel and High-Fidelity Text-to-Lip Generation](https://arxiv.org/abs/2107.06831), Jinglin Liu, Zhiying Zhu, **Yi Ren**, et al. \| [![](https://img.shields.io/github/stars/Dianezzy/ParaLip?style=social&label=ParaLip Stars)](https://github.com/Dianezzy/ParaLip)
-- ``AAAI 2022`` [Flow-based Unconstrained Lip to Speech Generation](https://ojs.aaai.org/index.php/AAAI/article/view/19966), Jinzheng He, Zhou Zhao, **Yi Ren**, et al.
-- ``ACM-MM 2020`` [FastLR: Non-Autoregressive Lipreading Model with Integrate-and-Fire](https://dl.acm.org/doi/10.1145/3394171.3413740), Jinglin Liu, **Yi Ren**, et al.
+### ReCG: ReRAM-Accelerated Sparse Conjugate Gradient
+- Mingjia Fan, Xiaoming Chen, Dechuang Yang, **Zhou Jin**, Weifeng Liu
+- 61th ACM/IEEE Design Automation Conference (DAC '24)
 
-## 📚 Machine Translation 
-- ``ACL 2023`` [AV-TranSpeech: Audio-Visual Robust Speech-to-Speech Translation](), Rongjie Huang, Huadai Liu, Xize Cheng, **Yi Ren**, et al.
-- `ICLR 2023` [TranSpeech: Speech-to-Speech Translation With Bilateral Perturbation](https://openreview.net/forum?id=UVAmFAtC5ye), Rongjie Huang, Jinglin Liu, Huadai Liu, **Yi Ren**, Lichao Zhang, Jinzheng He, Zhou Zhao
-- ``AAAI 2021`` [UWSpeech: Speech to Speech Translation for Unwritten Languages](https://arxiv.org/abs/2006.07926), Chen Zhang, Xu Tan, **Yi Ren**, et al. \| [**Project**](https://speechresearch.github.io/uwspeech/)
-- ``IJCAI 2020`` [Task-Level Curriculum Learning for Non-Autoregressive Neural Machine Translation](https://www.ijcai.org/Proceedings/2020/0534.pdf), Jinglin Liu, **Yi Ren**, Xu Tan, et al.
-- ``ACL 2020`` [SimulSpeech: End-to-End Simultaneous Speech to Text Translation](https://www.aclweb.org/anthology/2020.acl-main.350), **Yi Ren**, Jinglin Liu, Xu Tan, et al.
-- ``ACL 2020`` [A Study of Non-autoregressive Model for Sequence Generation](https://arxiv.org/abs/2004.10454), **Yi Ren**, Jinglin Liu, Xu Tan, et al.
-- ``ICLR 2019`` [Multilingual Neural Machine Translation with Knowledge Distillation](https://openreview.net/forum?id=S1gUsoR9YX), Xu Tan, **Yi Ren**, Di He, et al.
+### Machine Learning and GPU Accelerated Sparse Linear Solvers for Transistor-Level Circuit Simulation: A Perspective Survey (Invited Paper)
+- **Zhou Jin**, Wenhao Li, Yinuo Bai, Tengcheng Wang, Yicheng Lu, Weifeng Liu
+- 29th ACM/IEEE Asia and South Pacific Design Automation Conference (ASP-DAC '24)
 
+### Cuper: Customized Dataflow and Perceptual Decoding for Sparse Matrix-Vector Multiplication on HBM-equipped FPGAs
+- Enxin Yi, Yiru Duan, Yinuo Bai, Kang Zhao, **Zhou Jin**, Weifeng Liu
+- 21st IEEE/ACM Design, Automation, and Test in Europe (DATE '24)
 
-## 🎼 Music & Dance Generation 
-- ``IEEE TMM`` [SDMuse: Stochastic Differential Music Editing and Generation via Hybrid Representation](https://ieeexplore.ieee.org/document/10149095), Chen Zhang, Yi Ren, Kejun Zhang, Shuicheng Yan.
-- ``AAAI 2021`` [SongMASS: Automatic Song Writing with Pre-training and Alignment Constraint](https://arxiv.org/abs/2012.05168), Zhonghao Sheng, Kaitao Song, Xu Tan, **Yi Ren**, et al.
-- ``ACM-MM 2020`` <span style="color:red">(Oral)</span> [PopMAG: Pop Music Accompaniment Generation](https://dl.acm.org/doi/10.1145/3394171.3413721), **Yi Ren**, Jinzheng He, Xu Tan, et al. \| [**Project**](https://speechresearch.github.io/popmag/)
+### TSA-TICER: A Two-Stage TICER Acceleration Framework for Model Order Reduction
+- Pengju Chen, Dan Niu, **Zhou Jin**, Changyin Sun, Qi Li, Hao Yan
+- 21st IEEE/ACM Design, Automation, and Test in Europe (DATE '24)
 
-## 🧑‍🎨 Generative Model
-- ``ICLR 2022`` [Pseudo Numerical Methods for Diffusion Models on Manifolds](https://openreview.net/forum?id=PlKWVd2yBkY), Luping Liu, **Yi Ren**, Zhijie Lin, Zhou Zhao \| [![](https://img.shields.io/github/stars/luping-liu/PNDM?style=social&label=Code+Stars)](https://github.com/luping-liu/PNDM) \| [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/pseudo-numerical-methods-for-diffusion-models-1/image-generation-on-celeba-64x64)](https://paperswithcode.com/sota/image-generation-on-celeba-64x64?p=pseudo-numerical-methods-for-diffusion-models-1)
+### MSH: A Multi-Stage HiZ-Aware Homotopy Framework for Nonlinear DC Analysis
+- **Zhou Jin**, Tian Feng, Wu Xiao, Dan Niu, Zhenya Zhou, Cheng Zhuo
+- 21st IEEE/ACM Design, Automation, and Test in Europe (DATE '24)
 
-## Others
-- `NeurIPS 2023` [Unsupervised Video Domain Adaptation for Action Recognition: A Disentanglement Perspective](https://openreview.net/forum?id=Rp4PA0ez0m), Pengfei Wei, Lingdong Kong, Xinghua Qu, **Yi Ren**, et al.
-- ``ACM-MM 2022`` [Video-Guided Curriculum Learning for Spoken Video Grounding](), Yan Xia, Zhou Zhao, Shangwei Ye, Yang Zhao, Haoyuan Li, **Yi Ren**
+### Efficient Spectral-Aware Power Supply Noise Analysis for Low-Power Design Verification
+- Yinuo Bai, Xiaoyu Yang, Yicheng Lu, Dan Niu, Cheng Zhuo, **Zhou Jin**, Weifeng Liu
+- 21st IEEE/ACM Design, Automation, and Test in Europe (DATE '24)
+
+### ISPT-Net: A Noval Transient Backward-stepping Reduction Policy by Irregular Sequential PredictionTransformer
+- Yichao Dong, Dan Niu, **Zhou Jin**, Chuan Zhang, Changyin Sun, Zhenya Zhou
+- 21st IEEE/ACM Design, Automation, and Test in Europe (DATE '24)
+
+### Heterogeneous Static Timing Analysis with Advanced Delay Calculator
+- Zizheng Guo, Tsung-Wei Huang, **Zhou Jin**, Cheng Zhuo, Yibo Lin, Runsheng Wang, Ru Huang
+- 21st IEEE/ACM Design, Automation, and Test in Europe (DATE '24)
+
+### PanguLU: A Scalable Regular Two-Dimensional Block-Cyclic Sparse Direct Solver on Distributed Heterogeneous Systems
+- Xu Fu, Bingbin Zhang, Tengcheng Wang, Wenhao Li, Yuechen Lu, Enxin Yi, Jianqi Zhao, Xiaohan Geng, Fangying Li, Jingwen Zhang, **Zhou Jin**, Weifeng Liu
+- International Conference for High Performance Computing, Networking, Storage and Analysis (SC '23)
+
+### AmgR: Algebraic Multigrid Accelerated on ReRAM
+- Mingjia Fan, Xiaotian Tian, Yintao He, Junxian Li, Yiru Duan, Xiaozhe Hu, Ying Wang, **Zhou Jin**, Weifeng Liu
+- 60th ACM/IEEE Design Automation Conference (DAC '23)
+
+### Three challenges in reram-based process-in-memory for neural network
+- Ziyi Yang, Kehan Liu, Yiru Duan, Mingjia Fan, Qiyue Zhang, **Zhou Jin**
+- 2023 IEEE 5th International Conference on Artificial Intelligence Circuits and Systems (AICAS)
+
+### Adaptive Transient Stepping Policy on Reinforcement Learning
+- Liaosong Xu, Dan Niu, Yanlan Yang, Aofeng Wang, **Zhou Jin**, Yichao Dong, Chuan Zhang
+- 2023 International Symposium of Electronics Design Automation (ISEDA)
+
+### An Effective Parallel Acceleration Method for Transient Simulation of Large-Scale Power Ground Network
+- Aofeng Wang, Dan Niu, Yanlan Yang, Liaosong Xu, Yichao Dong, **Zhou Jin**, Rumin Zhang
+- 2023 International Symposium of Electronics Design Automation (ISEDA)
+
+### Deep learning enhanced time-step control in pseudo transient analysis for efficient nonlinear dc simulation
+- Xiaru Zha, Haojie Pei, Dan Niu, Xiao Wu, **Zhou Jin**
+- 2023 International Symposium of Electronics Design Automation (ISEDA)
+
+### Accelerating DC Circuit Simulation through Feature Selection and LSTM-Based Time-Step Control
+- **Zhou Jin**, Ziyi Yang, Haojie Pei, Xiaru Zha, Yinuo Bai, Dan Niu, Zhenya Zhou, Xiao Wu
+- Electronics 12 (8), 1927
+
+### OSSP-PTA: An Online Stochastic Stepping Policy for PTA on Reinforcement Learning
+- Dan Niu, Yichao Dong, **Zhou Jin**, Chuan Zhang, Qi Li, Changyin Sun
+- IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems
+
+### Accelerating Sparse LU Factorization with Density-Aware Adaptive Matrix Multiplication for Circuit Simulation
+- Tengcheng Wang, Wenhao Li, Haojie Pei, Yuying Sun, **Zhou Jin**, Weifeng Liu
+- IEEE Design Automation Conference (DAC'23)
+
+### Adaptive Stepping PTA for DC Analysis Based on Reinforcement Learning
+- Yichao Dong, Dan Niu, **Zhou Jin**, Chuan Zhang, Qi Li, Changyin Sun
+- IEEE Transactions on Circuits and Systems II: Express Briefs
+
+### Boa-pta: A bayesian optimization accelerated pta solver for spice simulation
+- Wei W Xing, Xiang Jin, Tian Feng, Dan Niu, Weisheng Zhao, **Zhou Jin**
+- ACM Transactions on Design Automation of Electronic Systems
+
+### A Survey and Perspective on Electronic Design Automation Tools for Ensuring SoC Security
+- Tian Feng, Haojie Pei, **Zhou Jin**, Xiao Wu
+- 19th International SoC Design Conference (ISOCC)
+
+### TileSpMSpV: A Tiled Algorithm for Sparse Matrix-Sparse Vector Multiplication on GPUs
+- Haonan Ji, Huimin Song, Shibo Lu, **Zhou Jin**, Guangming Tan, Weifeng Liu
+- 51st International Conference on Parallel Processing (ICPP '22)
+
+### Accelerating Nonlinear DC Circuit Simulation with Reinforcement Learning
+- **Zhou Jin**, Haojie Pei, Yichao Dong, Xiang Jin, Xiao Wu, Wei W Xing, Dan Niu
+- 59th Design Automation Conference (DAC '22)
+
+### TileSpGEMM:A Tiled Algorithm for Parallel Sparse General Matrix-Matrix Multiplication on GPUs
+- Yuyao Niu, Zhengyang Lu, Haonan Ji, Shuhui Song, **Zhou Jin**, Weifeng Liu
+- 27th ACM SIGPLAN Annual Symposium on Principles and Practical of Parallel Programming(PPoPP'22)
+
+### Application of Deep Learning in Back-End Simulation: Challenges and Opportunities
+- Yufei Chen, Haojie Pei, Xiao Dong, **Zhou Jin**, Cheng Zhuo
+- 27th Aisa and South Pacific Design Automation Conference (ASP-DAC'22)
+
+### SFLU: Synchronization-Free Sparse LU Factorization for Fast Circuit Simulation on GPUs
+- Jianqi Zhao, Yao Wen, Yuchen Luo, **Zhou Jin**, Weifeng Liu, Zhenya Zhou
+- 2021 58th ACM/IEEE Design Automation Conference (DAC)
+
+### Segmented Merge: A New Primitive for Parallel Sparse Matrix Computations
+- Haonan Ji, Shibo Lu, Kaixi Hou, Hao Wang, **Zhou Jin**, Weifeng Liu, Brian Vinter
+- International Journal of Parallel Programming
+
+### Implementing LU and Cholesky Factorizations on Artificial Intelligence Accelerators
+- Yuechen Lu, Yuchen Luo, Haocheng Lian, **Zhou Jin**, Weifeng Liu
+- CCF Transactions on High Performance Computing
+
+### Boa-pta, A Bayesian Optimization Accelerated Error-Free SPICE Solver
+- Wei W Xing, Xiang Jin, Yi Liu, Dan Niu, Weishen Zhao, **Zhou Jin**
+- arXiv preprint arXiv:2108.00257
+
+### PALBBD: A Parallel Arclength Method Using Bordered Block Diagonal Form for DC Analysis
+- **Zhou Jin**, Tian Feng, Yiru Duan, Xiao Wu, Minghou Cheng, Zhenya Zhou, Weifeng Liu
+- Proceedings of the 2021 on Great Lakes Symposium on VLSI
+
+### Tilespmv: A Tiled Algorithm for Sparse Matrix-Vector Multiplication on GPUs
+- Yuyao Niu, Zhengyang Lu, Meichen Dong, **Zhou Jin**, Weifeng Liu, Guangming Tan
+- 2021 IEEE International Parallel and Distributed Processing Symposium (IPDPS)
+
+### An Adaptive Dynamic-Element PTA Method for Solving Nonlinear DC Operating Point of Transistor Circuits
+- **Zhou Jin**, Meiping Liu, Xiao Wu
+- 2018 IEEE 61st International Midwest Symposium on Circuits and Systems (MWSCAS)
+
+### Parameter Optimization and Initial Value Methods of PTA Method for DC Analysis
+- **Zhou Jin**, Dan Niu, Xiao Wu, Jianan Wang, Shiyu Du, Yasuaki Inoue
+- 2017 Eighth International Conference on Intelligent Control and Information Processing (ICICIP)
+
+### Improved SPICE3 Implementation Algorithms of Compound Element Pseudo-Transient Analysis for Solving Nonlinear DC Circuits
+- **Zhou Jin**, Dan Niu, Xiao Wu
+- 2017 Chinese Automation Congress (CAC)
+
+### Global Convergence of the Newton Fixed-Point Homotopy Method for MOS Transistor Circuits
+- Dan Niu, **Zhou Jin**, Xiao Wu, Yasuaki Inoue
+- 2017 Chinese Automation Congress (CAC)
+
+### An Adaptive Time-Step Control Method in Damped Pseudo-Transient Analysis for Solving Nonlinear DC Circuit Equations
+- Xiao Wu, **Zhou Jin**, Dan Niu, Yasuaki Inoue
+- IEICE Transactions on Fundamentals of Electronics, Communications and Computer Sciences
+
+### A Netlist Implementation of the Newton Fixed-Point Homotopy Method for MOS Transistor Circuits
+- Dan Niu, Yasuaki Inoue, **Zhou Jin**, Xiao Wu
+- 2015 IEEE 58th International Midwest Symposium on Circuits and Systems (MWSCAS)
+
+### Study on Pseudo-transient Analysis Methods for Solving Nonlinear DC Circuits
+- **Zhou Jin**
+- Waseda University
+
+### Effective Ramping Algorithm and Restart Algorithm in the SPICE3 Implementation for DPTA Method
+- **Zhou Jin**, Xiao Wu, Dan Niu, Xiaoli Guan, Yasuaki Inoue
+- Nonlinear Theory and Its Applications, IEICE
+
+### The Limitation for the Growth of Step of DPTA Method
+- Xiao Wu, **Zhou Jin**, Dan Niu, Yasuaki Inoue
+- 2014 International Symposium on Integrated Circuits (ISIC)
+
+### A Ramping Method Combined with the Damped PTA Algorithm to Find the DC Operating Points for Nonlinear Circuits
+- **Zhou Jin**, Xiao Wu, Yasuaki Inoue, Niu Dan
+- 2014 International Symposium on Integrated Circuits (ISIC)
+
+### The limitation for the growth of step of DPTA method
+- Yasuaki Inoue, Dan Niu, Xiao Wu, **Zhou Jin**
+- 2014 International Symposium on Integrated Circuits (ISIC)
+
+### A PTA Method Using Numerical Integration Algorithms with Artificial Damping for Solving Nonlinear DC Circuits
+- Xiao Wu, **Zhou Jin**, Dan Niu, Yasuaki Inoue
+- Nonlinear Theory and Its Applications, IEICE
+
+### Effective Implementation and Embedding Algorithms of CEPTA Method for Finding DC Operating Points
+- **Zhou Jin**, Xiao Wu, Dan Niu, Yasuaki Inoue
+- IEICE Transactions on Fundamentals of Electronics, Communications and Computer Sciences
+
+### Numerical Integration Algorithms with Artificial Damping for the PTA Method Applied to DC Analysis of Nonlinear Circuits
+- Xiao Wu, **Zhou Jin**, Yasuaki Inoue
+- 2013 International Conference on Communications, Circuits and Systems (ICCCAS)
+
+### An Effective and Globally Convergent Newton Fixed-Point Homotopy Method for MOS Transistor Circuits
+- Dan Niu, Xiao Wu, **Zhou Jin**, Yasuaki Inoue
+- IEICE TRANSACTIONS on Fundamentals of Electronics, Communications and Computer Sciences
+
+### An Effective Awitching Algorithm for the Damped Pseudo-Transient Analysis
+- X Wu, **Z Jin**, X Lian, D Niu, Y Inoue
+- ITC-CSCC2013
+
+### An Effective Ramping PTA Method for the DC Analysis of Nonlinear Circuits
+- **Z Jin**, X Wu, D Niu, Y Inoue
+- ITC-CSCC, Korea
+
+### An Effective Implementation and Embedding Algorithm of PTA Method for Finding DC Operating Points
+- **Zhou Jin**, Xiao Wu, Yasuaki Inoue
+- 2013 International Conference on Communications, Circuits and Systems (ICCCAS)
+
+### A Globally Convergent and Highly Efficient Homotopy Method for MOS Transistor Circuits
+- Dan Niu, **Zhou Jin**, Xiao Wu, Yasuaki Inoue
+- 2012 7th International Conference on Computing and Convergence Technology (ICCCT)
+
+### 直流動作点求解のための複合擬似素子擬似過渡解析法の効果的な実装手法と埋め込み手法
+- **金洲**， 呉梟， 牛丹， 井上靖秋
+- 電気学会研究会資料. ECT, 電子回路研究会
