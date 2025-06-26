@@ -37,7 +37,8 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "https://github.com/dashboard"
+  # github           : "https://github.com/dashboard"dashboard
+  github           : "dashboard"
   google_plus      :
   keybase          :
   instagram        :
