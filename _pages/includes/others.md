@@ -3,6 +3,32 @@
 - *2019.06 - 2022.04*, Master, Zhejiang University, Hangzhou.
 - *2015.09 - 2019.06*, Undergraduate, Chu Kochen Honors College, Zhejiang Univeristy, Hangzhou.
 - *2012.09 - 2015.06*, Luqiao Middle School, Taizhou.
+## Professional Experience
+March 2025 – Present
+Zhejiang University, School of Integrated Circuits
+Hundred-Talents Program Researcher
+- *2023 – 2025*
+China University of Petroleum (Beijing), School of Artificial Intelligence
+Associate Professor, Doctoral Supervisor
+2018 – 2022
+China University of Petroleum (Beijing), School of Information Science and Engineering
+Lecturer, Master's Supervisor
+2016 – 2017
+Waseda University, Research Center
+Postdoctoral Researcher
+2013 – 2014
+Waseda University, Global COE Program (21st Century Center of Excellence)
+GCOE Researcher
+
+## Education Background
+- *2012 – 2015*, Waseda University, Department of Large-Scale Integrated Circuit Systems
+Ph.D. in Engineering
+2010 – 2012
+Waseda University, Department of Large-Scale Integrated Circuit Systems
+Master of Engineering
+2006 – 2010
+Nanjing University, Department of Computer Science and Technology
+Bachelor of Science
 
 # 🎓 Career Destinations of Graduates​
 - 2025届硕士，孙嘉泰，就业，北京华大九天科技股份有限公司。
