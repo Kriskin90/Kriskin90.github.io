@@ -23,7 +23,7 @@
   *GCOE Researcher*  
   Waseda University, Global COE Program (21st Century Center of Excellence)
 
-### Education Background
+## Education Background
 - **Ph.D. in Engineering** (2012 – 2015)  
   *Waseda University, Department of Large-Scale Integrated Circuit Systems*  
 
