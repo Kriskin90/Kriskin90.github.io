@@ -4,8 +4,8 @@
   - Best Paper Award Nomination (2024)
 - **SC '23 (CCF - A International Top - tier Conference)**
   - Best Paper Award
-  - **First recipient from Mainland China**
-  - **Only winner at the conference (2023)**
+  - 🔹**First recipient from Mainland China**
+  - 🔹**Only winner at the conference (2023)**
 - **ISED'A '23**
   - Honorable Mention Paper Award (2023)
 
