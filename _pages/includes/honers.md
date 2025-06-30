@@ -6,7 +6,7 @@
   - Best Paper Award
   - 🔹**First recipient from Mainland China**
   - 🔹**Only winner at the conference (2023)**
-- **ISED'A '23**
+- **ISEDA '23**
   - Honorable Mention Paper Award (2023)
 
 ## 🏅 Young Scientist Awards
