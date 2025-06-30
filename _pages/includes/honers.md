@@ -10,7 +10,7 @@
   - Honorable Mention Paper Award (2023)
 
 ## 🏅 Young Scientist Awards
-- **EDA2 Open Innovation Collaboration Mechanism**
+- **EDA<sup>2</sup> Open Innovation Collaboration Mechanism**
   - Youth Science and Technology Award (First Edition, Sole Recipient) (2023)
 - **Institute of Electrical Engineers of Japan (IEEE) Kyushu Branch**
   - Kyushu Branch President's Award (2013)
