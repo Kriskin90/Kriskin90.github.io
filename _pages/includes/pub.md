@@ -93,7 +93,7 @@
 - 2nd IEEE/ACM International Symposium of Electronics Design Automation (ISEDA '24)
 
 ### Accelerating Large-scale Sparse LU Factorization for RF Circuit Simulation
-- Feng Guofeng, Wang Hongyu, Guo Zhuoqiang, Li Mingzhen, Zhao Tong, Jin Zhou, Jia Weile, Tan Guangming, Sun Ninghui
+- Guofeng Feng, Hongyu Wang, Zhuoqiang Guo, Mingzhen Li, Tong Zhao, **Zhou Jin**, Weile Jia, Guangming Tan, Ninghui Sun
 - 30th International European Conference on Parallel and Distributed Computing (Euro-Par '24)
 
 ### MAUnet: Multiscale Attention U-Net for Effective IR Drop Prediction
