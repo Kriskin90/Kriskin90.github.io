@@ -1,14 +1,7 @@
 # 📄 CV
-
-<div id="pdf-viewer"></div>
-<script src="//mozilla.github.io/pdf.js/build/pdf.js"></script>
-<script>
-  pdfjsLib.getDocument('../test.pdf').promise.then(function(pdf) {
-    pdf.getPage(1).then(function(page) {
-      // 渲染PDF到div
-    });
-  });
-</script>
+ 
+![CV Preview](../cv-preview.png)  <!-- 替换为 PDF 第一页的截图 -->
+[Download Full CV (PDF)](../test.pdf)  <!-- 提供下载链接 -->
 
 
 <!--
