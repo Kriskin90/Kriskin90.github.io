@@ -1,22 +1,48 @@
 # 📄 CV
 
-<div id="pdf-viewer" style="height: 800px; overflow: auto; border: 1px solid #ddd; border-radius: 4px;"></div>
+<div id="pdf-viewer" style="height: 800px; overflow: auto; border: 1px solid #eee; border-radius: 8px; margin-bottom: 12px;"></div>
+
+<!-- 下载按钮容器 -->
+<div style="text-align: center;">
+  <a href="../_pages/test.pdf" download style="
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 20px;
+    background: #f5f5f5;
+    color: #333;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    text-decoration: none;
+    font-family: -apple-system, sans-serif;
+    font-size: 14px;
+    transition: all 0.2s;
+  ">
+    <!-- Font Awesome 下载图标（纯SVG，无需外部依赖） -->
+    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+      <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+      <polyline points="7 10 12 15 17 10"></polyline>
+      <line x1="12" y1="15" x2="12" y2="3"></line>
+    </svg>
+    下载简历 PDF
+  </a>
+</div>
+
 <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.12.313/pdf.min.js"></script>
 <script>
+  // PDF渲染逻辑（保持不变）
   pdfjsLib.GlobalWorkerOptions.workerSrc = 'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.12.313/pdf.worker.min.js';
-  
   pdfjsLib.getDocument('../_pages/test.pdf').promise.then(function(pdf) {
     renderPage(pdf, 1);
   }).catch(function(error) {
     document.getElementById('pdf-viewer').innerHTML = 
-      '<p style="color:red; padding:20px;">PDF加载失败: ' + error.message + '</p>';
+      '<p style="color:red; padding:20px;">PDF加载错误: 请尝试<a href="../_pages/test.pdf" download>直接下载</a></p>';
   });
 
   function renderPage(pdf, pageNumber) {
     pdf.getPage(pageNumber).then(function(page) {
       var viewer = document.getElementById('pdf-viewer');
-      // 动态计算缩放比例（确保宽度适配容器）
-      var scale = viewer.clientWidth / page.getViewport({ scale: 1.0 }).width * 0.95; // 留5%边距
+      var scale = viewer.clientWidth / page.getViewport({ scale: 1.0 }).width * 0.95;
       var viewport = page.getViewport({ scale: scale });
       
       var canvas = document.createElement('canvas');
