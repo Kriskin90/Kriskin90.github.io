@@ -1,50 +1,40 @@
 # 📄 CV
 
-<div id="pdf-viewer" style="height: 800px; border: 1px solid #ddd; border-radius: 4px;"></div>
+<div id="pdf-viewer" style="height: 800px; overflow: auto; border: 1px solid #ddd; border-radius: 4px;"></div>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.12.313/pdf.min.js"></script>
 <script>
-  // 设置PDF.js worker路径
   pdfjsLib.GlobalWorkerOptions.workerSrc = 'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.12.313/pdf.worker.min.js';
   
-  // 加载PDF文件
   pdfjsLib.getDocument('../_pages/test.pdf').promise.then(function(pdf) {
-    // 显示总页数（可选）
-    console.log('PDF总页数:', pdf.numPages);
-    
-    // 渲染第一页
     renderPage(pdf, 1);
-    
-    // 如果需要多页渲染，可以在这里添加更多逻辑
   }).catch(function(error) {
-    console.error('PDF加载错误:', error);
     document.getElementById('pdf-viewer').innerHTML = 
-      '<p style="color:red; padding:20px;">无法加载PDF文件: ' + error.message + '</p>';
+      '<p style="color:red; padding:20px;">PDF加载失败: ' + error.message + '</p>';
   });
 
-  // 封装页面渲染函数
   function renderPage(pdf, pageNumber) {
     pdf.getPage(pageNumber).then(function(page) {
-      var scale = 1.5;
+      var viewer = document.getElementById('pdf-viewer');
+      // 动态计算缩放比例（确保宽度适配容器）
+      var scale = viewer.clientWidth / page.getViewport({ scale: 1.0 }).width * 0.95; // 留5%边距
       var viewport = page.getViewport({ scale: scale });
       
       var canvas = document.createElement('canvas');
-      var context = canvas.getContext('2d');
       canvas.height = viewport.height;
       canvas.width = viewport.width;
       
-      // 将canvas添加到容器（先清空容器）
-      var viewer = document.getElementById('pdf-viewer');
       viewer.innerHTML = '';
       viewer.appendChild(canvas);
       
-      // 渲染页面
       page.render({
-        canvasContext: context,
+        canvasContext: canvas.getContext('2d'),
         viewport: viewport
       });
     });
   }
 </script>
+
+
 
 <!--
 # 📄 CV
