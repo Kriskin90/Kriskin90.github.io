@@ -4,9 +4,9 @@
 
 **Hangzhou, China**  
 **Email:** z.jin@zju.edu.cn  
-**Github:** [GitHub Profile](link_to_github_if_available)
-**Google Scholar:** [Google Scholar Profile](link_to_google_scholar_if_available)
-**ORCID:** [ORCID iD](link_to_orcid_if_available)
+**Github:** [GitHub Profile](https://github.com/dashboard)
+**Google Scholar:** [Google Scholar Profile](https://scholar.google.com/citations?hl=zh-CN&user=Iw11vncAAAAJ&view_op=list_works&sortby=pubdate)
+**ORCID:** [ORCID iD](https://orcid.org/0000-0002-0632-9494)
 
 ---
 
