@@ -1,8 +1,14 @@
 # 📄 CV
 
-
-<!-- 或者使用iframe -->
-<iframe src="../test.pdf" width="100%" height="600px" style="border: none;"></iframe>
+<div id="pdf-viewer"></div>
+<script src="//mozilla.github.io/pdf.js/build/pdf.js"></script>
+<script>
+  pdfjsLib.getDocument('../test.pdf').promise.then(function(pdf) {
+    pdf.getPage(1).then(function(page) {
+      // 渲染PDF到div
+    });
+  });
+</script>
 
 
 <!--
