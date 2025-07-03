@@ -1,4 +1,6 @@
-# Zhou Jin
+# 📄 CV
+
+## Zhou Jin
 
 ![Profile Picture](../../images/zj.jpg) 
 
