@@ -1,12 +1,12 @@
 # Zhou Jin
 
-![Profile Picture](link_to_profile_picture_if_available) <!-- 如果图片可下载或有链接，可在此处添加 -->
+![Profile Picture](../../images/zj.jpg) 
 
 **Hangzhou, China**  
 **Email:** z.jin@zju.edu.cn  
-**Github:** [GitHub Profile](link_to_github_if_available) <!-- 如果有Github链接可添加 -->
-**Google Scholar:** [Google Scholar Profile](link_to_google_scholar_if_available) <!-- 如果有Google Scholar链接可添加 -->
-**ORCID:** [ORCID iD](link_to_orcid_if_available) <!-- 如果有ORCID链接可添加 -->
+**Github:** [GitHub Profile](link_to_github_if_available)
+**Google Scholar:** [Google Scholar Profile](link_to_google_scholar_if_available)
+**ORCID:** [ORCID iD](link_to_orcid_if_available)
 
 ---
 
