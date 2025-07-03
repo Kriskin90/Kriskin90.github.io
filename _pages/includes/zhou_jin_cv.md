@@ -7,7 +7,7 @@
   pdfjsLib.GlobalWorkerOptions.workerSrc = 'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.12.313/pdf.worker.min.js';
   
   // 加载PDF文件
-  pdfjsLib.getDocument('.._pages/test.pdf').promise.then(function(pdf) {
+  pdfjsLib.getDocument('../_pages/test.pdf').promise.then(function(pdf) {
     // 显示总页数（可选）
     console.log('PDF总页数:', pdf.numPages);
     
