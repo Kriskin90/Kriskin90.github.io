@@ -1,6 +1,12 @@
 # 📄 CV
 
-<div id="pdf-viewer" style="height: 800px; overflow: auto; border: 1px solid #eee; border-radius: 8px; margin-bottom: 12px;"></div>
+<div id="pdf-viewer" style="height: 800px; overflow: auto; 
+  border: 1px solid #f0f0f0; 
+  border-radius: 8px; 
+  margin-bottom: 12px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+  background-color: #fff;
+"></div>
 
 <!-- 下载按钮容器 -->
 <div style="text-align: center;">
