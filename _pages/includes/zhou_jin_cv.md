@@ -1,5 +1,13 @@
 # 📄 CV
 
+
+<!-- 或者使用iframe -->
+<iframe src="../test.pdf" width="100%" height="600px" style="border: none;"></iframe>
+
+
+<!--
+# 📄 CV
+
 ## Zhou Jin
 
 ![Profile Picture](../../images/zj.jpg) 
@@ -66,6 +74,7 @@ Zhejiang University, School of Integrated Circuits
   - Youth Science and Technology Award (First Edition, Sole Recipient) (2023)
 - Institute of Electrical Engineers of Japan (IEE) Kyushu Branch
   - Kyushu Branch President’s Award (2013)
+-->
 
 ### Academic Recognition
 - Beijing Association for Science and Technology
