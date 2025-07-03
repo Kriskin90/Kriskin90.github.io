@@ -1,31 +1,34 @@
 # 📄 CV
 
-<div id="pdf-viewer" style="height: 800px; overflow: auto; 
-  border: 1px solid #f0f0f0; 
-  border-radius: 8px; 
-  margin-bottom: 12px;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.05);
-  background-color: #fff;
+<div id="pdf-viewer" style="
+  height: 800px;
+  overflow: auto;
+  border: 1px solid #e0e0e0;
+  border-radius: 6px;
+  margin-bottom: 16px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  transition: all 0.3s ease;
 "></div>
 
 <!-- 下载按钮容器 -->
-<div style="text-align: center;">
+<div style="text-align: center; margin-top: 8px;">
   <a href="../_pages/test.pdf" download style="
     display: inline-flex;
     align-items: center;
-    gap: 8px;
-    padding: 10px 20px;
-    background: #f5f5f5;
-    color: #333;
-    border: 1px solid #ddd;
-    border-radius: 6px;
+    gap: 6px;
+    padding: 8px 16px;
+    background: #f8f9fa;
+    color: #2c3e50;
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
     text-decoration: none;
-    font-family: -apple-system, sans-serif;
-    font-size: 14px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    font-size: 13px;
+    font-weight: 500;
     transition: all 0.2s;
   ">
-    <!-- Font Awesome 下载图标（纯SVG，无需外部依赖） -->
-    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+    <!-- 更简洁的下载图标 -->
+    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
       <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
       <polyline points="7 10 12 15 17 10"></polyline>
       <line x1="12" y1="15" x2="12" y2="3"></line>
@@ -36,13 +39,13 @@
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.12.313/pdf.min.js"></script>
 <script>
-  // PDF渲染逻辑（保持不变）
+  // PDF渲染逻辑
   pdfjsLib.GlobalWorkerOptions.workerSrc = 'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.12.313/pdf.worker.min.js';
   pdfjsLib.getDocument('../_pages/test.pdf').promise.then(function(pdf) {
     renderPage(pdf, 1);
   }).catch(function(error) {
     document.getElementById('pdf-viewer').innerHTML = 
-      '<p style="color:red; padding:20px;">PDF加载错误: 请尝试<a href="../_pages/test.pdf" download>直接下载</a></p>';
+      '<p style="color:#e74c3c; padding:20px; font-size:14px;">PDF加载错误: 请尝试<a href="../_pages/test.pdf" download style="color:#3498db; text-decoration:underline;">直接下载</a></p>';
   });
 
   function renderPage(pdf, pageNumber) {
@@ -62,6 +65,9 @@
         canvasContext: canvas.getContext('2d'),
         viewport: viewport
       });
+      
+      // 添加加载完成后的细微边框动画
+      viewer.style.boxShadow = '0 2px 12px rgba(0,0,0,0.08)';
     });
   }
 </script>
