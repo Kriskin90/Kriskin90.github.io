@@ -1,6 +1,6 @@
 # 📄 CV
  
-![CV Preview](../cv-preview.png)  <!-- 替换为 PDF 第一页的截图 -->
+![CV Preview](../test.pdf)  <!-- 替换为 PDF 第一页的截图 -->
 [Download Full CV (PDF)](../test.pdf)  <!-- 提供下载链接 -->
 
 
