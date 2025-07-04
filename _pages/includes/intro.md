@@ -1,5 +1,3 @@
-# 📄 Biography
-
 <div style="
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
     line-height: 1.7;
