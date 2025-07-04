@@ -4,34 +4,64 @@
   height: 800px;
   overflow: auto;
   border: 1px solid #e0e3e6;
-  border-radius: 8px;
-  margin-bottom: 18px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.06);
-  transition: all 0.3s cubic-bezier(0.25, 0.1, 0.25, 1);
-  background: #fcfdfe;
-"></div>
+  border-radius: 10px;
+  margin-bottom: 20px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+  transition: all 0.4s cubic-bezier(0.22, 0.61, 0.36, 1);
+  background: #fcfdff;
+  position: relative;
+  /* 新增装饰性边框 */
+  padding: 2px;
+  background-clip: padding-box;
+">
+  <!-- 装饰性边框 -->
+  <div style="
+    position: absolute;
+    top: -3px;
+    left: -3px;
+    right: -3px;
+    bottom: -3px;
+    border: 2px solid rgba(168, 187, 206, 0.3);
+    border-radius: 12px;
+    pointer-events: none;
+    z-index: -1;
+  "></div>
+</div>
 
 <!-- 下载按钮容器 -->
-<div style="text-align: center; margin-top: 10px;">
+<div style="text-align: center; margin-top: 12px;">
   <a href="../_pages/test.pdf" download style="
     display: inline-flex;
     align-items: center;
-    gap: 6px;
-    padding: 9px 18px;
+    gap: 7px;
+    padding: 10px 20px;
     background: linear-gradient(to bottom, #f8f9fa, #f1f3f5);
     color: #2c3e50;
     border: 1px solid #d6d9dc;
-    border-radius: 5px;
+    border-radius: 6px;
     text-decoration: none;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
-    font-size: 13px;
+    font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+    font-size: 14px;
     font-weight: 500;
-    letter-spacing: 0.3px;
-    transition: all 0.25s ease-out;
-    box-shadow: 0 1px 2px rgba(0,0,0,0.05);
+    letter-spacing: 0.4px;
+    transition: all 0.3s ease-out;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    position: relative;
+    overflow: hidden;
   ">
+    <!-- 按钮悬停效果 -->
+    <span style="
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(to right, rgba(255,255,255,0.1), rgba(255,255,255,0.3));
+      transform: translateX(-100%);
+      transition: transform 0.3s ease;
+    "></span>
     <!-- 优化后的下载图标 -->
-    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.3" stroke-linecap="round">
+    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" style="flex-shrink: 0;">
       <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
       <polyline points="7 10 12 15 17 10" stroke-linejoin="round"></polyline>
       <line x1="12" y1="15" x2="12" y2="3"></line>
@@ -48,7 +78,7 @@
     renderPage(pdf, 1);
   }).catch(function(error) {
     document.getElementById('pdf-viewer').innerHTML = 
-      '<div style="color:#e74c3c; padding:24px; font-size:14px; text-align:center; background:#fff9f9; border-radius:4px; margin:12px;">PDF加载错误: 请尝试<a href="../_pages/test.pdf" download style="color:#3498db; text-decoration:underline; font-weight:600;">直接下载</a></div>';
+      '<div style="color:#e74c3c; padding:24px; font-size:14px; text-align:center; background:#fff9f9; border-radius:6px; margin:12px; border:1px solid #ffebee;">PDF加载错误: 请尝试<a href="../_pages/test.pdf" download style="color:#3498db; text-decoration:none; font-weight:600; border-bottom:1px dashed #3498db;">直接下载</a></div>';
   });
 
   function renderPage(pdf, pageNumber) {
@@ -70,10 +100,21 @@
       });
       
       // 加载完成后的精致动画
-      viewer.style.boxShadow = '0 6px 16px rgba(0,0,0,0.08)';
-      viewer.style.borderColor = '#d8e0e8';
+      viewer.style.boxShadow = '0 8px 20px rgba(0,0,0,0.1)';
+      viewer.style.borderColor = '#d0dce8';
+      viewer.querySelector('div').style.borderColor = 'rgba(168, 187, 206, 0.5)';
     });
   }
+  
+  // 为下载按钮添加悬停效果
+  document.querySelector('a[download]').addEventListener('mouseenter', function() {
+    this.querySelector('span').style.transform = 'translateX(0)';
+    this.style.boxShadow = '0 3px 8px rgba(0,0,0,0.1)';
+  });
+  document.querySelector('a[download]').addEventListener('mouseleave', function() {
+    this.querySelector('span').style.transform = 'translateX(-100%)';
+    this.style.boxShadow = '0 2px 4px rgba(0,0,0,0.05)';
+  });
 </script>
 
 
